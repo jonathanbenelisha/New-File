@@ -1,8 +1,14 @@
-body{
+#body{
   font-family: 'Lobster', cursive;
-  background-color: lightgrey;
-  
-  margin: 0px;
+  background-color: lightgray;
+}
+
+.body1{
+  background-color: white;
+}
+
+.body2{
+  background-color: gray;
 }
 
 
@@ -14,11 +20,12 @@ nav {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   font-family: 'Lobster', cursive;
 }
+
 #nav-1 {
   background: grey;
 }
 
-.link-1 {
+#link-1 {
   transition: 0.3s ease;
   background: lightgray;
   color: #ffffff;
@@ -30,15 +37,10 @@ nav {
   margin: 0px 90px;
 }
 
-.link-1:hover {
+#link-1:hover {
   border-top: 2px solid #ffffff;
   border-bottom: 3px solid #ffffff;
   padding: 6px 0; 
-}
-
-
-div{ 
-border-color: white;
 }
 
 .row{
@@ -51,14 +53,27 @@ border-color: white;
 }
 
 .img-circle{
-  height: 150px;
-  width: 150px;
+  height: 160px;
+  width: 160px;
   text-align: center;
+  border: 1px solid black;
 }
 
-.h1{
+#circle{
+  height: 350px;
+  width: 350px;
+  padding: 0;
+  margin: 40px ;
+  border: 3px solid gray;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+#h1{
   text-align: center;
   color: black;
+  font-family: 'Lobster', cursive;
 }
 
 .div-1{
@@ -66,5 +81,12 @@ border-color: white;
 
 }
 
-.img-rounded{
+p{
+  font-size: 16px;
+  font-family: 'Droid Serif', serif;
+}
+
+.div-img{
+  overflow: hidden;
+  white-space: nowrap;
 }
