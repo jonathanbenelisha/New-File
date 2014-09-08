@@ -1,34 +1,70 @@
 body{
-
-text-align: center;
+  font-family: 'Lobster', cursive;
+  background-color: lightgrey;
+  
+  margin: 0px;
 }
 
-div{
-border-style: solid;
-border-width: 5px;	
-padding: 30px;
+
+nav {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-family: 'Lobster', cursive;
+}
+#nav-1 {
+  background: grey;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: lightgray;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  padding: 20px 15;
+  margin: 0px 90px;
+}
+
+.link-1:hover {
+  border-top: 2px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  padding: 6px 0; 
+}
+
+
+div{ 
 border-color: white;
 }
 
 .row{
-	border-color: white;
+ border-color: white;
 }
 
 .container{
-	border-color: white;
+ border-color: white;
+ text-align: center;
 }
 
-.list-group-item{
-	border: 0px;
-	margin-top: 40px;
-	margin-top: 40px;
+.img-circle{
+  height: 150px;
+  width: 150px;
+  text-align: center;
 }
 
 .h1{
-	font-family: 'Lobster', cursive;
+  text-align: center;
+  color: black;
 }
 
-p{
-	font-family: 'Lobster', cursive;
-	font-size: 20px;
+.div-1{
+  text-align: center;
+
+}
+
+.img-rounded{
 }
