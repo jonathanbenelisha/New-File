@@ -1,14 +1,7 @@
-#body{
+body{
   font-family: 'Lobster', cursive;
-  background-color: lightgray;
-}
 
-.body1{
-  background-color: white;
-}
-
-.body2{
-  background-color: gray;
+  
 }
 
 
@@ -20,12 +13,11 @@ nav {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   font-family: 'Lobster', cursive;
 }
-
 #nav-1 {
   background: grey;
 }
 
-#link-1 {
+.link-1 {
   transition: 0.3s ease;
   background: lightgray;
   color: #ffffff;
@@ -37,7 +29,7 @@ nav {
   margin: 0px 90px;
 }
 
-#link-1:hover {
+.link-1:hover {
   border-top: 2px solid #ffffff;
   border-bottom: 3px solid #ffffff;
   padding: 6px 0; 
@@ -53,27 +45,25 @@ nav {
 }
 
 .img-circle{
-  height: 160px;
-  width: 160px;
-  text-align: center;
-  border: 1px solid black;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  vertical-align: top; /* here */
 }
+
 
 #circle{
-  height: 350px;
-  width: 350px;
-  padding: 0;
-  margin: 40px ;
-  border: 3px solid gray;
-  overflow: hidden;
-  white-space: nowrap;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin: px 10px 0px 3px;
+  text-align: justify;
+  font-family: 'Roboto Slab', serif;
 }
 
-
-#h1{
+.h1{
   text-align: center;
   color: black;
-  font-family: 'Lobster', cursive;
 }
 
 .div-1{
@@ -81,16 +71,13 @@ nav {
 
 }
 
-p{
-  font-size: 16px;
-  font-family: 'Droid Serif', serif;
-}
-
-.div-img{
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-#modal-dialog-modal-lg{
+#text{
+  font-size: 18;
+  width: 320px;
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 20px 50px 10px 50px; 
+  width: 350px;
+  display: inline-block
   
 }
