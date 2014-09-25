@@ -1,11 +1,20 @@
-body{
+body, html{
   font-family: 'Lobster', cursive;
   height: 100%;
   width: 100%;
   text-align: center;
 }
+.page1{
+  height: 100%;
+  width: 100%;
+  background-image: url(../css/images/stardust.png);
+}
 
-
+.carousel-text{
+  color: white;
+  font-size: 18;
+  padding: 10px 10px 10px 10px;
+}
 nav {
   margin-top: 40px;
   padding: 24px;
@@ -38,10 +47,6 @@ nav {
   color: black; 
 }
 
-.row{
- border-color: white;
-}
-
 .container{
  border-color: white;
  text-align: center;
@@ -53,6 +58,8 @@ nav {
   display: inline-block;
   vertical-align: top; /* here */
   margin: 60px;
+  border: 3px solid black;
+
 }
 
 
@@ -85,11 +92,6 @@ nav {
   margin-top: 0px;
   
 }
-.page1{
-  height: 100%;
-  width: 100%;
-  background-image: url(../css/images/stardust.png);
-}
 
 .page2{
   height: 100%;
@@ -105,8 +107,10 @@ nav {
 }
 
 #carousel-example-generic{
+  margin-top: 20px;
   width: 600px;
-  margin: 0 auto;
+  margin: 90 auto;
+  margin-top: 20px;
 }
 
 .modal{
@@ -125,7 +129,7 @@ nav {
   margin-top: 150px;
   text-decoration: underline;
 }
-
+s
 @media screen and (max-width: 500px){
   #link-1{
     width: 100%;
@@ -133,4 +137,9 @@ nav {
   #carousel-example-generic{
     width: 100%;
   }
+}
+
+.carsol-img{
+  width: 600px;
+  height: 400px;
 }
